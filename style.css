@@ -1,0 +1,55 @@
+#board {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(91, 137, 68);
+}
+
+#board .square{
+    width: 37.5px;
+    height: 37.5px;
+    
+}
+.color1 {
+   background-color: rgb(189, 147, 93); 
+}
+
+.color2 {
+    background-color:rgb(244, 244, 222); 
+ }
+
+ .square svg {
+    height: 30px;
+    width: 30px;
+    margin: 4px;
+    position: relative;
+    z-index: -9;
+
+ }
+
+ path {
+    position: relative;
+    z-index: -10;
+ }
+
+ .piece {
+    position: relative;
+    z-index: 9;
+ }
+
+ .black{
+fill: black;
+
+ }
+
+.white {
+    fill:rgb(123, 129, 139);
+
+
+ }
+
+
+.valid {
+    filter: brightness(50%);
+}
